@@ -10,7 +10,7 @@
       rgba(7, 7, 7, 0.7) 50%,
       hsla(0, 0%, 3%, 0.7) 50%
     ),
-    url(/icons/webdev.jpg);
+    url(icons/webdev.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
