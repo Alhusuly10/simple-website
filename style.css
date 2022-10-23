@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background: linear-gradient(
+      to top,
+      rgba(7, 7, 7, 0.7) 50%,
+      hsla(0, 0%, 3%, 0.7) 50%
+    ),
+    url(/icons/webdev.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150vh;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+/* This is the beginning of navigation styling*/
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  position: static;
+}
+
+.icon {
+  padding-bottom: 35px;
+  float: left;
+}
+
+h2.logo {
+  display: inline-block;
+  padding: 10px 0 15px 40px;
+  color: greenyellow;
+}
+
+.menu {
+  margin-left: 20%;
+  padding: 8px;
+}
+
+.menu ul li {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  list-style-type: none;
+  margin-bottom: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.7s ease-in-out;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+a:hover {
+  color: greenyellow;
+}
+
+.search {
+  float: left;
+  background-color: green;
+  width: 330px;
+  margin-left: 40px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+input .search[placeholder] {
+  color: aliceblue;
+}
+
+#srch {
+  width: 240px;
+  height: 30px;
+  color: #fff;
+  border: 1px solid green;
+  font-family: "Times New Roman", Times, serif;
+  background: transparent;
+  border-radius: 7px;
+  font-size: 17px;
+}
+
+#submit {
+  height: 30px;
+  width: 85px;
+  border: 1px solid green;
+  font-family: "Times New Roman", Times, serif;
+  background-color: greenyellow;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  font-size: 17px;
+}
+#srch:focus {
+  outline: none;
+}
+
+#submit:focus {
+  outline: none;
+}
+/* This is the end of navigation styling */
+
+/* This is the beginning of the left content styling */
+h1 {
+  color: greenyellow;
+  text-transform: uppercase;
+  text-align: left;
+}
+.content {
+  position: relative;
+  width: 1200px;
+  margin: auto;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 7%;
+  letter-spacing: 1.5px;
+  line-height: 50px;
+}
+.parag {
+  color: #fff;
+  text-align: left;
+  padding-left: 20px;
+  padding: 25px;
+}
+
+.btn {
+  width: 160px;
+  height: 40px;
+  border: none;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  background-color: greenyellow;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: greenyellow;
+  transition: 0.6s ease-in-out;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Form styling */
+
+.form {
+  width: 350px;
+  height: 400px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.8) 50%
+  );
+  position: absolute;
+  top: 170px;
+  border-radius: 10px;
+  padding: padding;
+  left: 870px;
+}
+
+.log-text {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  width: 250px;
+  background-color: antiquewhite;
+  margin: 20px 50px;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+.input {
+  background: transparent;
+  border-bottom: 1px solid greenyellow;
+  outline: 0;
+  color: aliceblue;
+  margin-left: 40px;
+  padding-bottom: 13px;
+  width: 250px;
+}
+
+::placeholder {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.log-btn {
+  margin-left: 15%;
+  margin-top: 15px;
+  width: 230px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.sign {
+  color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.sign a {
+  color: greenyellow;
+  text-decoration: none;
+}
+
+.login {
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+}
+
+.icons {
+  color: #fff;
+  margin-left: 125px;
+}
+
+.icons a img {
+  width: 30px;
+  color: #fff;
+}
